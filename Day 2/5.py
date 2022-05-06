@@ -25,6 +25,8 @@ y=[(i,j )for i in [1,2,3] for j in [3,4,5] if i!=j ]
 print(y)
 
 
+
+
 # write a prgm to find out 1 to 10 from list comprehension
 """
 list1 = []
@@ -38,4 +40,18 @@ B=[i for i in range(0,10) if (i %2 != 0)]
 print(B)
 
 
+
+
 # write a prgm to find out factorial of file using list comprehension
+"""
+y=[1]
+for i in range(1,6):
+    y.append(y[-1]*i)
+    print(y)"""
+
+# Soluction
+y=[1]
+a=[ y.append(y[-1]*i) for i in range(1,6) ]
+print(y)
+
+
