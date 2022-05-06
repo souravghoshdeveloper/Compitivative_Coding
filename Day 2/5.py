@@ -55,3 +55,16 @@ a=[ y.append(y[-1]*i) for i in range(1,6) ]
 print(y)
 
 
+
+
+
+#
+n = int(input("Enter a size? "))
+for i in range(2*n-1):
+    d = n-1-abs(n-1-i)
+    for j in range(4*n-3):
+        if j % 2 == 0 and abs((j-(2*n-2))//2) <= d:
+            print(chr(97+n-1-(d-abs((j-(2*n-2))//2))), end="")
+        else:
+            print("-", end="")
+    print()
