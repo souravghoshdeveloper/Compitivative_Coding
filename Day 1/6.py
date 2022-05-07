@@ -1,5 +1,2 @@
-for i in range(1,10):
-    if (i < 6):
-        print("* "*i)
-    else:
-        print("* "*(10 - i))
+for i in range(1,6):
+    print(" "*(i-1)+"*"*(6-i))
