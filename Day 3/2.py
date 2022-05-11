@@ -1,4 +1,4 @@
-principal = int(input("Enter Principal? "))
+"""principal = int(input("Enter Principal? "))
 rate = int(input("Enter rate of interest? "))
 time = int(input("Enter Time? "))
 
@@ -18,3 +18,8 @@ func(name1="john",message="hello",name2="david")
 
 
 #-------------------------------------------------------
+# Lambda Function
+#if any variable containing lambda it is called function
+x = lambda a:a+10
+print("sum = ",x(20))"""
+
